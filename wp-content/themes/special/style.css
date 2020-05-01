@@ -1,0 +1,33 @@
+/*
+Theme Name: Special Site for Takahiro Kamiya
+Theme URI: https://knucklepart.com
+Description: knucklepart's Original Theme
+Author: Knucklepart
+Author URI: https://knucklepart.com
+*/
+
+body {
+    background: #000 !important;
+    color: #FFF !important;
+}
+
+#header {
+    width: 100%;
+}
+
+.mb-10 {
+    margin-bottom: 20%;
+}
+
+.mb-10 ul,li{
+    list-style-type: none;
+}
+
+.gradient {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #303030), color-stop(1.00, #000));
+    background: -webkit-linear-gradient(#303030, #000);
+    background: -moz-linear-gradient(#303030, #000);
+    background: -o-linear-gradient(#303030, #000);
+    background: -ms-linear-gradient(#303030, #000);
+    background: linear-gradient(#303030, #000);
+}
